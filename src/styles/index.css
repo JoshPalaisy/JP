@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #111518 !important; */
+  background-image: linear-gradient(to bottom right, #0f0C29, #1E5E98) !important;
+  min-height: calc(100vh - 20px);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.homeBtn {
+  margin: 5px;
+}
+
+.card.large {
+  height: 100% !important;
+  /* transition: all .1s ease-in-out; */
+  transition: box-shadow .3s,transform .3s,opacity .3s;
+}
+
+.card.large:hover {
+  /* transform: scale(1.05); */
+  transform: translateY(-8px);
+}
+
+.project-details{
+  max-width: 700px;
+  margin: auto;
+}
+
+nav ul li .active {
+    background-color: rgba(0,0,0,0.1);
+}
+
+nav {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+canvas {
+  height: auto !important;
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 85% !important;
+  }
+}
